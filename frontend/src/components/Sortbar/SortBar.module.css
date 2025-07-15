@@ -1,0 +1,36 @@
+.sort_bar {
+  padding: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.select,
+.search {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: var(--border-radius);
+}
+.select {
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  border: 1px solid var(--color-outline);
+}
+.search input {
+  padding: 0 0.5rem;
+  border: none;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+.search button {
+  border: none;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  flex: 1;
+  margin: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.app_card {
+  width: 20rem;
+  border-radius: var(--border-radius);
+  background-color: var(--color-surface);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+.app_card img {
+  width: 100%;
+}
+.card_content {
+  padding: 1rem;
+}
+.card_title {
+  margin-top: 0;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--color-primary);
+}
+.card_tag {
+  background-color: var(--color-warning);
+  padding: 4px;
+  border-radius: var(--border-radius);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 600;
+}
+.card_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_info_auth {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card_info_auth span {
+  font-weight: 600;
+  color: var(--color-secondary)
+}
+.card_info img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.card_favorites span{
+    margin-left: 8px;
+}

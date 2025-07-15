@@ -1,6 +1,11 @@
+@import './assets/colors.css';
+
 #root {
-  width: 100vw;
+  width: 100%;
+  max-width: 1920px;
+  min-height: 100vh;
   margin: 0 auto;
+  padding: 0;
   text-align: center;
-  background-color: purple;
+  background-color: --var(--color-surface);
 }

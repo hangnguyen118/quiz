@@ -1,16 +1,17 @@
 
 import './App.css'
-import Header from './components/header/Header'
-import Login from './pages/Login'
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Home from './pages/home/Home';
 function App() {
 
   return (
     <>
-      <div>
-        <Header/>
-        <Login />
-      </div>
+      <Header />
+      <Home />
+      <Footer/>
     </>
+
   )
 }
 

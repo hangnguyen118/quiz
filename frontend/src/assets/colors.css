@@ -1,0 +1,42 @@
+:root {
+  /* Primary colors */
+  --color-primary: #004858;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #22768c;
+  --color-on-primary-container: #ffffff;
+
+  /* Secondary colors */
+  --color-secondary: #41798a;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #cbeff5;
+  --color-on-secondary-container: #1e3a43;
+
+  /* Tertiary colors */
+  --color-tertiary: #c2f9ff;
+  --color-on-tertiary: #00363a;
+  --color-tertiary-container: #e2fcff;
+  --color-on-tertiary-container: #00363a;
+
+  /* Error colors (Material Design style) */
+  --color-error: #b00020;
+  --color-on-error: #ffffff;
+  --color-error-container: #fcd8dc;
+  --color-on-error-container: #680004;
+
+  /* Neutral colors */
+  --color-white: #ffffff;
+  --color-black: #0c1214;
+  --color-surface: #f5fafd;
+  --color-surface-dim: #d6dbdd;
+  --color-surface-bright: #f0f0f0;
+  --color-outline: #8c9ca1;
+
+  /* Semantic colors */
+  --color-success: #27ae60;
+  --color-warning: #f1c40f;
+  --color-info: #3498db;
+
+  /* UI tokens */
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --border-radius: 4px;
+}
