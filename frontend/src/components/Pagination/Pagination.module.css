@@ -1,0 +1,37 @@
+.pagination {
+   width: fit-content;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: var(--color-white);
+    box-shadow: var(--shadow);
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn_previous {
+    color: var(--color-outline);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+.btn_previous:hover, .btn_next:hover {
+    background-color: var(--color-surface-dim);
+    color: var(--color-primary);
+}
+.btn_next {
+    color: var(--color-primary);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background-color: transparent;
+    border: none
+}
+.select_page {
+    color: var(--color-primary);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-outline);
+    height: 24px;
+    padding: 0 1rem;
+}

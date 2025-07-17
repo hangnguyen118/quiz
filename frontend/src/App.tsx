@@ -2,13 +2,13 @@
 import './App.css'
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Home from './pages/home/Home';
+import Login from './pages/login/Login';
 function App() {
 
   return (
     <>
       <Header />
-      <Home />
+      <Login />
       <Footer/>
     </>
 

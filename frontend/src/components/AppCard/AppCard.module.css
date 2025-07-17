@@ -5,6 +5,7 @@
   overflow: hidden;
   box-shadow: var(--shadow);
   position: relative;
+  cursor: pointer;
 }
 .app_card img {
   width: 100%;
