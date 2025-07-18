@@ -2,13 +2,13 @@
 import './App.css'
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Login from './pages/login/Login';
+import Quiz from './pages/quiz/Quiz';
 function App() {
 
   return (
     <>
       <Header />
-      <Login />
+      <Quiz />
       <Footer/>
     </>
 
