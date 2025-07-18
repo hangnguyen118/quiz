@@ -1,11 +1,202 @@
 .page {
-    min-height: 100vh;
+  min-height: 100vh;
+  background-color: var(--color-primary-container);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container {
-    width: 500px;
-    margin: auto;
+  max-width: 70rem;
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  background-color: var(--color-white);
+}
+.login_box {
+  display: flex;
+  width: 100%;
+}
+.login_image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+@media (max-width: 768px) {
+    .login_image {
+        display: none;
+    }
+}
+.login_image img {
+  width: 100%;
+  max-width: 800px;
 }
 .login_form {
-    display: flex;
-    flex-direction: column;
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
 }
+.login_form h2 {
+  font-size: 28px;
+  color: var(--color-primary);
+}
+.login_form p {
+  margin-top: 1rem;
+  color: var(--color-secondary);
+}
+.input_group {
+  display: flex;
+  margin: 15px 0;
+  width: 100%;
+}
+.input_group input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid var(--color-outline);
+  outline: none;
+}
+.forgot_password {
+  margin-bottom: 2rem;
+}
+.forgot_password a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+.forgot_password a:hover {
+  border-bottom: 1px solid var(--color-secondary);
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.btn_signin,
+.btn_signup {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 25px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn_signin {
+  color: var(--color-on-primary);
+  background-color: var(--color-primary);
+}
+.btn_signin:hover {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
+}
+.btn_signup {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-outline);
+}
+.btn_signup:hover {
+  color: var(--color-on-primary);
+  background-color: var(--color-primary);
+}
+.social_login {
+  margin-top: 30px;
+}
+.social_login p {
+  color: var(--color-outline);
+}
+.social_icon {
+width: 60px;
+height: 60px;
+margin-right: 10px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50%;
+    border: none;
+  box-shadow: var(--shadow);
+  transition: 0.2s;
+  color: var(--color-primary);
+}
+.social_icon:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+/* .container {
+  max-width: 70rem;
+  margin: auto;
+  display: flex;
+  padding: 6rem;
+  gap: 2rem;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+}
+.login_img {
+  flex: 1.5;
+  overflow: hidden;
+}
+.login_img img {
+  height: auto;
+  object-fit: cover;
+}
+.login_content {
+  flex: 1;
+}
+.login_content p {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.login_content h1,
+p {
+  margin: 0;
+}
+.login_form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.button_group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.button_group button {
+  flex: 1;
+  padding: 15px;
+  min-width: 150px;
+  border-radius: 50px;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-white);
+}
+.button_group button:hover {
+    background-color: var(--color-primary);
+}
+.login_content a {
+  cursor: pointer;
+}
+.login_content input {
+  width: auto;
+  border-radius: 40px;
+  padding: 15px;
+  border: 1px solid var(--color-outline);
+}
+.socials_button {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.social_button {
+    color: var(--color-primary);
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+    box-shadow: var(--shadow);
+}
+.social_button:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+} */
